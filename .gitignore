@@ -1,0 +1,14 @@
+# Others files
+*.lnk
+.dummy
+*.url
+
+# Temporary Looping files
+*.lo1
+
+# Old files
+*.old
+
+.bak*
+.lck
+Développement Orienté Objet/UML/UML.vpp.bak_002d

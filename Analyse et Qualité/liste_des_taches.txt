@@ -1,0 +1,35 @@
+Analyse et Qualité
+
+- Faire un dossier d'analyse fonctionnelle
+	- Diagramme des interactions
+	- Organigramme Technique
+	- Logigramme d'une fonctionnalité
+- MCD
+- SR
+- Dictionnaire de données
+- PERT
+- GANTT
+- Affectation des ressources
+- Calcul du budget
+- Etude économique (Anglais)
+
+
+IHM
+
+- Maquettes / StoryBoards
+	- Sites possibles (Draw.io / Figma / Penpot)
+- Scénario d'utilisation
+- Compte rendu test utilisateur (5) de type "talk-aloud"
+
+DOO
+
+A faire avec Visual Paradigm
+
+- 3 schéma UML : 
+	- Class diagram
+	- Use Case Diagram
+	- Sequence Diagram
+- Faire les livrables : 
+	- Diagrammes UML (les 3)
+	- Commenté toutes les sources Java
+	- Faire un doc WORD avec ds captures d'écran des tests fait

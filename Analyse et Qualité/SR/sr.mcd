@@ -1,0 +1,16 @@
+TypeMédaille: idTypeMédaille, nomTypeMédaille
+Équipe: idÉquipe, nomCourtÉquipe, nomCompletÉquipe, nomNatifÉquipe, codeÉquipe
+Score: idScore, scoreScore
+Temps: idTemps, tempsTemps
+Discipline: idDiscipline, nomDiscipline, codeDiscipline
+typeSession: idTypeSession, nomTypeSession
+Catégorie: idCatégorie, nomCatégorie
+Session: codeSession, heureDébutSession, heureFinSession, #typeSession > TypeSession > nomTypeSession, descriptionSession, #prixSession > PrixSession > idPrixSession, dateSession, #épreuveSession > Épreuve > idÉpreuve
+PrixSession: idPrixSession, prixPrixSession, #catégoriePrixSession > Catégorie > idCatégorie
+typeRésultat: idTypeRésultat, nomTypeRésultat
+Résultat: idRésultat, #épreuveRésultat > Épreuve > idÉpreuve, #typeRésultat > TypeRésultat > idTypeRésultat, #temps > Temps > idTemps, #scoreRésultat > Score > idScore
+Médaille: idMédaille, #équipeMédaille > Équipe > idÉquipe, #typeMédaille > TypeMédaille > idTypeMédaille, #idRésultat > Résultat > idRésultat
+Épreuve: idÉpreuve, nomÉpreuve, codeÉpreuve, #idDiscipline > Discipline > idDiscipline
+Joueur: idJoueur, prénomJoueur, nomJoueur, #équipeJoueur > Équipe > idÉquipe
+
+Compétence: #idDiscipline > Discipline > idDiscipline, #idJoueur> Joueur > idJoueur
